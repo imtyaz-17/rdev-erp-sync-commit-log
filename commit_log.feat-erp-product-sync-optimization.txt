@@ -1,0 +1,30 @@
+# Commit log: rdev-erp-sync
+# Source: rdev-erp-sync (feat/erp-product-sync-optimization)
+# Started: 2026-07-23 00:27:08
+
+
+# rdev-erp-sync / feat/erp-product-sync-optimization — 2026-07-23 00:27:08
+feb5d45 - feat: Add ERP_SYNC_DEBUG option for verbose logging (imtyaz)
+01484a4 - chore: Update .gitignore to include additional files (imtyaz)
+f704ce9 - feat: Track CMS product apply failures in storeSyncSummary (imtyaz)
+4895a02 - feat: Update sync endpoints to use POST method and handle sync_run_id (imtyaz)
+5321ea6 - feat: Enhance sendAttributesToExternalAPI method for batch processing (imtyaz)
+d618fa7 - feat: #18911 - Change the API ERP<>CMS RMC link to the vendor_item_no field (imtyaz)
+a18fddf - fix: 18910 - Change to API_Item - Global_Dimension_1_Code removed, Web_Brand added (imtyaz)
+7bdb370 - feat: Implement product_attributes and attribute_values table creation logic with safe existence checks (imtyaz)
+aa21b6b - feat: Add web_publish field to products table and update related service logic for product synchronization (imtyaz)
+8cf19a5 - feat: Introduce G2_SUBCATEGORY_BRANDS to handle jewellery subcategories for specific brands (imtyaz)
+054877c - feat: Include collection attribute in product sync query for enhanced data retrieval (imtyaz)
+0e0bc0c - refactor: Adjust product sync order in CronService to prioritize dimensions for brand mapping (imtyaz)
+8214a73 - feat: Add vendor_item_no field to products table and update related mappings and service logic (imtyaz)
+cd4dc63 - feat: Add detailed error reporting for sync results in CronService (imtyaz)
+067fe5d - refactor: Increase batch size for product sync operations from 50 to 100 in BusinessCentralService (imtyaz)
+bd7da87 - refactor: Increase batch size for product sync operations from 10 to 50 in BusinessCentralService and improve logging for batch processing (imtyaz)
+c693392 - feat: Enhance error reporting in CronService by adding detailed error details for sync results (imtyaz)
+829b5de - refactor: Further reduce batch size for product sync operations from 50 to 10 in BusinessCentralService and add logging for batch processing (imtyaz)
+b9046fa - fix: Update response status codes for sync endpoints to handle 'Sync already running' scenario (imtyaz)
+11d658d - refactor: Reduce batch size for product sync operations from 100 to 50 in BusinessCentralService (imtyaz)
+d6d7566 - refactor: Update batch size for product sync operations from 500 to 100 in BusinessCentralService (imtyaz)
+c749f63 - feat: Add .env.example file for environment configuration with database, server, and RDEV CMS settings (imtyaz)
+adfa45f - refactor: Replace configuration with RDEV CMS in environment files and services (imtyaz)
+2769992 - feat: Add .env.example file for environment configuration (imtyaz)
